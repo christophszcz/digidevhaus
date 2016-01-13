@@ -76,7 +76,7 @@ header .container-fluid {
   color: #fff;
   font-size: 40px;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Yanone Kaffeesatz";
   font-weight: 700
 }
 
@@ -135,7 +135,7 @@ a.button-link, a:visited {
   color: #778899;
   font-size: 40px;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Yanone Kaffeesatz";
   font-weight: 700
 }
  
@@ -152,16 +152,12 @@ a.button-link, a:visited {
 
 /* Contact Form */
 
-.btn.btn-success.btn-lg{
-  margin-left: 190px;
-}
-
 .contact-form-title{
   text-align: center; 
   color: #778899;
   font-size: 40px;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Yanone Kaffeesatz";
   font-weight: 700
 }
 
@@ -169,6 +165,20 @@ a.button-link, a:visited {
   height: 75px;
   font-size: 24px;
 }
+
+.submission-field { 
+  width: 388px; 
+  height: 80px; 
+  border: 1px solid #999999; 
+  padding: 8px;
+  font-size: 25px
+}
+
+.message-field {
+  font-size: 30px;
+  padding: 8px;
+}
+
   
 /* Footer */
 
