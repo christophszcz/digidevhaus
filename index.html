@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato|Roboto+Slab|Merriweather' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   </head>
   <body>
   
@@ -143,23 +144,32 @@
         <div class="col-lg-12 centered">
           <br>
           <br>
-          <h2 class="contact-form-title">Contact</h2>
+          <h2 class="contact-form-title">Do you have an idea for a project? We want to hear from you!</h2>
           <br>
 
           <!--Contact Form -->
           <div class="container-fluid">  
             <form action="//formspree.io/digidevhaus@gmail.com" method="POST">
-              <div class="col-md-6 text-center">
-                <input class="submission-field form-group" type="text" name="name" placeholder="Name:"><br> 
-                <input class="submission-field form-group" type="email" name="_replyto"placeholder="Email Address:"><br>
+              <div class="col-md-4 text-center">
+                <input class="submission-field form-group" type="text" name="name" placeholder="Full Name:">   
                 <input class="submission-field form-group" type="phone" name="phone" placeholder="Phone Number:"> 
               </div>
 
-              <div class="col-md-6 text-center">
+              <div class="col-md-4 text-center">
+                <input class="submission-field form-group" type="email" name="_replyto"placeholder="Email Address:">
+                <input class="submission-field form-group" type="text" name="company" placeholder="Project Title:">  
+              </div>
+
+              <div class="col-md-4 text-center">
+                <input class="submission-field form-group" type="text" name="company" placeholder="Company:"> 
+                <input class="submission-field form-group" type="text" name="company" placeholder="Expected Date of Completion:">
+              </div>
+
+              <div class="col-md-12 text-center">
                 <div class="form-group">
-                  <textarea class="message-field" rows="6" cols="30" name ="message" placeholder="Message:"></textarea>
+                    <textarea class="message-field" rows="8" cols="88" name ="message" placeholder="Project Description:"></textarea>
                 </div>
-                <input type="submit" name="submit" class="btn btn-success btn-lg" value="Send">
+                <input type="submit" name="submit" class="btn btn-success btn-lg" value="Send"> 
               </div>
             </form>
           </div>
