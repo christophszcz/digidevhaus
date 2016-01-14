@@ -6,6 +6,10 @@
   margin-bottom: 10px;
 }
 
+.navbar-inverse {
+  box-shadow: 0 3px #A9A9A9;
+}
+
 /* Main Section */
 
 .main-section{
@@ -144,8 +148,7 @@ a.button-link, a:visited {
  
 .contact-section {
     min-height:400px;
-    background-image: url('../images/Toronto.jpg');
-    background-size: 2560px 1100px;  
+    background-color: #F80000;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -157,7 +160,8 @@ a.button-link, a:visited {
   color: #778899;
   font-size: 40px;
   font-family: "Lobster";
-  font-weight: 700
+  text-shadow: 2px 2px #000;
+  margin-top: 40px;
 }
 
 .form-control {
