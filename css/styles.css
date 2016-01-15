@@ -6,7 +6,7 @@
   margin-bottom: 10px;
 }
 
-.navbar-inverse {
+.navbar {
   box-shadow: 0 3px #A9A9A9;
 }
 
@@ -182,7 +182,6 @@ a.button-link, a:visited {
   padding: 8px;
 }
 
-  
 /* Footer */
 
 footer {
@@ -201,7 +200,7 @@ footer {
 .questions{
   font-family: 'Montserrat', sans-serif;
   color: #323232;
-  margin-top: 0;
+  margin-top: 250px;
   text-align: center;
 }
 
