@@ -198,6 +198,13 @@ footer {
   color: #fff
 }
 
+.questions{
+  font-family: 'Montserrat', sans-serif;
+  color: #323232;
+  margin-top: 0;
+  text-align: center;
+}
+
 .col-md-8.footer-items{
   padding-bottom: 50px;
 }
