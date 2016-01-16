@@ -180,6 +180,8 @@ a.button-link, a:visited {
 .message-field {
   font-size: 20px;
   padding: 8px;
+  width: 1093px;
+  height: 200px;
 }
 
 /* Footer */
@@ -206,4 +208,84 @@ footer {
 
 .col-md-8.footer-items{
   padding-bottom: 50px;
+}
+
+/*Media Queries */
+
+ 
+@media (max-width: 1199px) { 
+  .contact-form-title{
+    font-size: 38px;
+  }
+  .submission-field {
+    width: 290px;
+    font-size: 16px;
+  }
+  .message-field {
+    font-size: 16px;
+    width: 903px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-form-title{
+    font-size: 30px;
+  }
+  .submission-field {
+    width: 290px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .message-field {
+    font-size: 16px;
+    width: 688px;
+  }
+}
+
+@media (max-width: 793px) {
+  .contact-form-title {
+    font-size: 28px;
+  }
+  .message-field {
+    width: 500px;
+  } 
+}
+
+@media (max-width: 582px) {
+  .message-field {
+    width: 478px;
+  } 
+}
+
+@media (max-width: 540px) {
+  .message-field {
+    width: 430px;
+  } 
+}
+
+@media (max-width: 500px) {
+  .message-field {
+    width: 405px;
+  } 
+}
+
+@media (max-width: 460px) {
+  .message-field {
+    width: 375px;
+  } 
+}
+
+@media (max-width: 440px) {
+  .message-field {
+    width: 353px;
+  } 
+}
+
+@media (max-width: 400px) {
+  form-title {
+    font-size: 27px;
+  }
+  .message-field {
+    width: 326px;
+  } 
 }
