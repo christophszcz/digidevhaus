@@ -18,6 +18,12 @@
   font-size: 12px;
 }
 
+.nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+}
+
 /* Main Section */
 
 .main-section{
