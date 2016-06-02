@@ -41,19 +41,17 @@ body {
   text-align: center;
 }
 .services-top{
-  font-size: 2em;
-  font-family: 'Merriweather', serif;
+  font-size: 65px;
+  color: #FFFFFF;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
 }
 .inner-service{
   color:#8A2BE2;
 }
 .service-line{
-  height: 2px;
-  width: 12em;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: #8A2BE2; 
+  width: 55px;
+  border: 2px solid #F05F40; 
 }
 
 .services-row{
@@ -61,8 +59,16 @@ body {
 }
 
 header .container-fluid {
-    padding-top: 100px;
-    padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.description-text{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* About Section*/
