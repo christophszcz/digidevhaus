@@ -6,7 +6,16 @@
 }
 
 .navbar {
-  box-shadow: 0 3px #A9A9A9;
+  box-shadow: 0 1px #817B79;
+}
+
+.navbar-nav > li > a {
+  text-shadow: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
 }
 
 /* Main Section */
