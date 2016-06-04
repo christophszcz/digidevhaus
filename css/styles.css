@@ -72,6 +72,18 @@ header .container-fluid {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.red-button{
+  margin-top: 30px;
+}
+     
+.button-section{
+  text-align: center;
+}
+
+.button-text{
+  text-transform: uppercase;
+}
+
 /* About Section*/
 
 .about-section {
