@@ -74,6 +74,8 @@ header .container-fluid {
 
 .red-button{
   margin-top: 30px;
+  border-radius: 21px;
+  padding: 10px 30px 10px 30px;
 }
      
 .button-section{
