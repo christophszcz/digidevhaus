@@ -75,7 +75,7 @@ header .container-fluid {
 .red-button{
   margin-top: 30px;
   border-radius: 21px;
-  padding: 10px 30px 10px 30px;
+  padding: 15px 30px 15px 30px;
 }
      
 .button-section{
@@ -86,7 +86,7 @@ header .container-fluid {
   text-transform: uppercase;
 }
 
-/* About Section*/
+/* About */
 
 .about-section {
   min-height:800px;
@@ -170,11 +170,18 @@ a.button-link, a:visited {
     padding-left: 480px;
 }
 
-/* Portfolio Section*/
+/* Services */
+
+.services-section {
+  min-height: 800px;
+  background-color: #fff;
+} 
+
+/* Portfolio */
 
 .portfolio-section {
-  min-height:900px;
-  background:white;
+  min-height: 900px;
+  background-color: #fff;
 } 
 
 .portfolio-title{
@@ -186,8 +193,7 @@ a.button-link, a:visited {
   font-weight: 700
 }
  
-
-/*Contact*/
+/* Contact */
  
 .contact-section {
     min-height:400px;
@@ -253,7 +259,7 @@ footer {
   padding-bottom: 50px;
 }
 
-/*Media Queries */
+/* Media Queries */
 
  
 @media (max-width: 1199px) { 
