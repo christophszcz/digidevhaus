@@ -111,7 +111,7 @@ header .container-fluid {
 
 .about-section-horizontal{
   width: 50px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
 .sub-heading {
@@ -119,6 +119,12 @@ header .container-fluid {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.white-button{
+  margin-top: 30px;
+  border-radius: 26px;
+  padding: 15px 30px 15px 30px;
 }
 
 .list-top{
@@ -186,13 +192,18 @@ h4{
   background-color: #fff;
 } 
 
-
-.white-button{
-  margin-top: 30px;
-  border-radius: 26px;
-  padding: 15px 30px 15px 30px;
+.services-title{
+  text-align: center; 
+  color: #5F4633;
+  font-size: 32px; 
+  font-weight: 300;
 }
-     
+
+.services-section-horizontal{
+  width: 50px;
+  border: 1px solid #F05F40;
+}
+
 /* Portfolio */
 
 .portfolio-section {
