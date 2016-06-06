@@ -186,6 +186,13 @@ h4{
   background-color: #fff;
 } 
 
+
+.white-button{
+  margin-top: 30px;
+  border-radius: 26px;
+  padding: 15px 30px 15px 30px;
+}
+     
 /* Portfolio */
 
 .portfolio-section {
