@@ -14,6 +14,10 @@ body {
   box-shadow: 0 1px #817B79;
 }
 
+a.nav-anchor:visited {
+  text-decoration: none;
+} 
+
 .navbar-nav > li > a {
   text-shadow: none;
   color: rgba(255, 255, 255, 0.7);
@@ -72,18 +76,22 @@ header .container-fluid {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.btn{
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .red-button{
   margin-top: 30px;
-  border-radius: 21px;
+  border-radius: 26px;
   padding: 15px 30px 15px 30px;
+  color: #ffffff;
+  background-color: #f05f40;
 }
      
 .button-section{
   text-align: center;
-}
-
-.button-text{
-  text-transform: uppercase;
 }
 
 /* About */
@@ -153,11 +161,6 @@ h4{
 .btn-black.outline {
   background: none;
   padding: 12px 22px;
-}
-
-a.button-link, a:visited {
-  color: #696969;
-  text-decoration: none;
 }
 
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
