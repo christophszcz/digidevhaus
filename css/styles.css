@@ -3,6 +3,14 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.description{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 /* Navbar */
 
 .navbar-brand {
@@ -44,6 +52,11 @@ a.nav-anchor:visited {
 .sub-heading, .services-top, .list-top, .list-icon, .list-icon2, .list-icon3{
   text-align: center;
 }
+
+.main-text{
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .services-top{
   font-size: 65px;
   color: #FFFFFF;
@@ -51,6 +64,7 @@ a.nav-anchor:visited {
   font-weight: 700;
   margin-top: 150px;
 }
+
 .inner-service{
   color:#8A2BE2;
 }
@@ -66,15 +80,6 @@ a.nav-anchor:visited {
 header .container-fluid {
   padding-top: 100px;
   padding-bottom: 50px;
-}
-
-.description-text{
-  margin-top: 15px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .btn{
@@ -152,10 +157,6 @@ header .container-fluid {
   height: 28px;
 }
 
-.description {
-  color: #777;
-}
-
 h4{
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -197,6 +198,10 @@ h4{
   color: #5F4633;
   font-size: 32px; 
   font-weight: 300;
+}
+
+.services-text {
+  color: #777;
 }
 
 .services-section-horizontal{
