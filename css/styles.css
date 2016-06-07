@@ -200,6 +200,13 @@ h4{
   font-weight: 300;
 }
 
+.services-subtitle{
+  font-size: 24px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
 .services-text {
   color: #777;
 }
