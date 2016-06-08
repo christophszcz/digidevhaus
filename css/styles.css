@@ -11,6 +11,11 @@ body {
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.service-line{
+  width: 55px;
+  border: 2px solid #F05F40; 
+}
+
 /* Navbar */
 
 .navbar-brand {
@@ -68,10 +73,6 @@ a.nav-anchor:visited {
 .inner-service{
   color:#8A2BE2;
 }
-.service-line{
-  width: 55px;
-  border: 2px solid #F05F40; 
-}
 
 .services-row{
   margin-top: 3em;
@@ -116,7 +117,7 @@ header .container-fluid {
 
 .about-section-horizontal{
   width: 50px;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 .sub-heading {
