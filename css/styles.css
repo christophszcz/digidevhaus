@@ -302,8 +302,10 @@ footer {
   text-align: center;
 }
 
-.col-md-8.footer-items{
-  padding-bottom: 50px;
+.footer-items{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
 }
 
 /* Media Queries */
