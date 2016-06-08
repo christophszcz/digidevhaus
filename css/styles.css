@@ -95,6 +95,7 @@ header .container-fluid {
   padding: 15px 30px 15px 30px;
   color: #ffffff;
   background-color: #f05f40;
+  text-transform: uppercase;
 }
      
 .button-section{
@@ -215,6 +216,12 @@ h4{
 .services-section-horizontal{
   width: 50px;
   border: 1px solid #F05F40;
+}
+
+.icon{
+  font-size: 4em;
+  text-align: center;
+  color: red;
 }
 
 /* Portfolio */
