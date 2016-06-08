@@ -16,6 +16,18 @@ body {
   border: 2px solid #F05F40; 
 }
 
+.white-title{
+  text-align: center; 
+  color: #fff;
+  font-size: 35px; 
+  font-weight: 300;
+}
+
+.red-section-horizontal{
+  width: 50px;
+  border: 2px solid #fff;
+}
+
 /* Navbar */
 
 .navbar-brand {
@@ -109,18 +121,6 @@ header .container-fluid {
   background-color: #F05F40;
 }
 
-.about-title{
-  text-align: center; 
-  color: #fff;
-  font-size: 35px; 
-  font-weight: 300;
-}
-
-.about-section-horizontal{
-  width: 50px;
-  border: 2px solid #fff;
-}
-
 .sub-heading {
   text-align: center;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -191,7 +191,7 @@ h4{
 /* Services */
 
 .services-section {
-  min-height: 800px;
+  min-height: 400px;
   background-color: #fff;
 } 
 
@@ -221,7 +221,7 @@ h4{
 .icon{
   font-size: 4em;
   text-align: center;
-  color: red;
+  color: #F05F40;
 }
 
 /* Portfolio */
@@ -244,7 +244,7 @@ h4{
  
 .contact-section {
     min-height:400px;
-    background-color: #F80000;
+    background-color: #F05F40;
     background-position: center;
     background-repeat: no-repeat;
 }
