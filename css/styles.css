@@ -290,9 +290,8 @@ footer {
   padding-top: 167px;
 }
 
-.footer-items {
-  padding-left: 133px;
-  font-family: 'Lato', serif;
+a.fa:hover, a.fa:active, a.fa:visited{
+  text-decoration: none;
 }
 
 .copyright{
@@ -308,8 +307,11 @@ footer {
 
 .footer-items{
   text-align: center;
-  color: #fff;
   font-size: 40px;
+}
+
+.fa-envelope-o, .fa-twitter, .fa-linkedin-square {
+  color: #fff;
 }
 
 /* Media Queries */
