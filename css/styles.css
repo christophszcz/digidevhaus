@@ -314,6 +314,13 @@ a.fa:hover, a.fa:active, a.fa:visited{
   color: #fff;
 }
 
+.social-media{
+  font-size: 2.5em;
+  color: #fff;
+  letter-spacing: 20px;
+  text-decoration: none;
+}
+
 /* Media Queries */
 
  
