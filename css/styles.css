@@ -307,7 +307,6 @@ a.fa:hover, a.fa:active, a.fa:visited{
 
 .footer-items{
   text-align: center;
-  font-size: 40px;
 }
 
 .fa-envelope-o, .fa-twitter, .fa-linkedin-square {
@@ -318,6 +317,10 @@ a.fa:hover, a.fa:active, a.fa:visited{
   font-size: 2.5em;
   color: #fff;
   letter-spacing: 20px;
+  text-decoration: none;
+}
+
+.social-media:link, .social-media:hover, .social-media:active, .social-media:visited {
   text-decoration: none;
 }
 
