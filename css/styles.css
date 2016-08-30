@@ -248,6 +248,14 @@ h4{
   display: block;
   margin: 0 auto;
 }
+
+/* Portfolio Media Queries */
+
+@media (max-width: 991px ){
+  .picture-space{
+    margin-top: 30px;
+  }
+}
  
 /* Contact */
  
