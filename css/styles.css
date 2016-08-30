@@ -114,6 +114,14 @@ header .container-fluid {
   text-align: center;
 }
 
+/* Main Section Media Queries */
+
+@media (max-width: 461px ){
+  .white-button{
+    margin-bottom: 30px;
+  }
+}
+
 /* About */
 
 .about-section {
