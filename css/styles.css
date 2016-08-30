@@ -190,6 +190,10 @@ h4{
 
 /* Services */
 
+#services {
+  margin-bottom: 40px;
+}
+    
 .services-section {
   min-height: 400px;
   background-color: #fff;
@@ -238,6 +242,11 @@ h4{
   text-transform: uppercase;
   font-family: "Yanone Kaffeesatz";
   font-weight: 700
+}
+
+.portfolio-item{
+  display: block;
+  margin: 0 auto;
 }
  
 /* Contact */
