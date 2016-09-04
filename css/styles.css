@@ -73,6 +73,9 @@ a.nav-anchor:visited {
   .navbar-toggle .icon-bar {
     background-color: #fff;
   }
+  .navbar-toggle:hover {
+    background-color: #9d9d9d;;
+  }
 }
 
 /* Main Section */
