@@ -8,6 +8,7 @@
     if ( currentScrollTop > lastScrollTop ) nav.addClass('hidden');
     else nav.removeClass('hidden');
     lastScrollTop = currentScrollTop;
+    $('.navbar').css('background-color', '#000');
   });
 
 })();
