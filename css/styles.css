@@ -256,6 +256,14 @@ h4{
   color: #F05F40;
 }
 
+/* Services Media Queries */
+
+@media (max-width: 700px){
+  .services-text{
+    padding: 10px;
+  }
+}
+
 /* Portfolio */
 
 .portfolio-section {
