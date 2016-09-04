@@ -64,6 +64,17 @@ a.nav-anchor:visited {
   color: #fff;
 }
 
+/* Navbar Media Queries */
+
+@media (max-width: 767px){
+  .navbar-toggle{
+    border-color: #333;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+}
+
 /* Main Section */
 
 .main-section{
