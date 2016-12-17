@@ -99,7 +99,7 @@ a.nav-anchor:visited {
   color: #FFFFFF;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
-  margin-top: 150px;
+  margin-top: -500px;
 }
 
 .inner-service{
@@ -122,7 +122,7 @@ header .container-fluid {
 }
 
 .red-button{
-  margin-top: 30px;
+  margin-top: -600px;
   border-radius: 26px;
   padding: 15px 30px 15px 30px;
   color: #ffffff;
@@ -135,6 +135,7 @@ header .container-fluid {
 }
 
 video {
+  position:relative;
   margin: 0;
   padding: 0;
   min-width: 100%;
@@ -145,8 +146,12 @@ video {
 }
 
 .top-content{
-  position:relative;
+  position: relative;
   z-index: 2;
+}
+
+#main-desc{ 
+  margin-top: -370px;
 }
 
 /* Main Section Media Queries */
