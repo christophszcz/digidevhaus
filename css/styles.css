@@ -80,11 +80,11 @@ a.nav-anchor:visited {
 
 /* Main Section */
 
-/*.main-section{
-  min-height:800px; 
-  background-image: url('../images/main_section.jpg');
-  background-position: center;
-}*/
+.main-section{
+  max-height:768px; 
+  /*background-image: url('../images/main_section.jpg');
+  background-position: center;*/
+}
 
 .sub-heading, .services-top, .list-top, .list-icon, .list-icon2, .list-icon3{
   text-align: center;
@@ -122,7 +122,7 @@ header .container-fluid {
 }
 
 .red-button{
-  margin-top: -600px;
+  margin-top: -690px;
   border-radius: 26px;
   padding: 15px 30px 15px 30px;
   color: #ffffff;
@@ -151,7 +151,8 @@ video {
 }
 
 #main-desc{ 
-  margin-top: -370px;
+  margin-top: -400px;
+  color: #5F4633;
 }
 
 /* Main Section Media Queries */
