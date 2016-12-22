@@ -99,7 +99,10 @@ a.nav-anchor:visited {
   color: #FFFFFF;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
-  margin-top: -500px;
+  top: 265px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .inner-service{
@@ -122,7 +125,6 @@ header .container-fluid {
 }
 
 .red-button{
-  margin-top: -690px;
   border-radius: 26px;
   padding: 15px 30px 15px 30px;
   color: #ffffff;
@@ -132,6 +134,7 @@ header .container-fluid {
      
 .button-section{
   text-align: center;
+  top:450px;
 }
 
 video {
@@ -146,13 +149,20 @@ video {
 }
 
 .top-content{
-  position: relative;
+  position: absolute;
   z-index: 2;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 #main-desc{ 
-  margin-top: -400px;
+  top: 360px;
   color: #5F4633;
+}
+
+#main-line{
+  top: 340px;
 }
 
 /* Main Section Media Queries */
