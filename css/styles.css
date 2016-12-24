@@ -100,9 +100,6 @@ a.nav-anchor:visited {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   top: 265px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
 }
 
 .inner-service{
@@ -166,6 +163,22 @@ video {
 }
 
 /* Main Section Media Queries */
+
+@media (max-width: 992px){
+  .services-top{
+    font-size: 55px;
+    top: 225px;
+  }
+  #main-line {
+    top: 290px;
+  }
+  #main-desc {
+    top: 320px;
+  }
+  .button-section {
+    top: 400px;
+  }
+}
 
 @media (max-width: 461px ){
   .white-button{
