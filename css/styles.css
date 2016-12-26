@@ -81,7 +81,7 @@ a.nav-anchor:visited {
 /* Main Section */
 
 .main-section{
-  max-height:768px; 
+  max-height:720px; 
   /*background-image: url('../images/main_section.jpg');
   background-position: center;*/
 }
@@ -163,6 +163,10 @@ video {
   top: 340px;
 }
 
+.main-icon {
+  position: absolute;
+  top:3px;
+}
 /* Main Section Media Queries */
 
 @media (max-width: 992px){
@@ -178,6 +182,21 @@ video {
   }
   .button-section {
     top: 400px;
+  }
+}
+
+@media (max-width: 767px){
+  .services-top {
+    top: 245px;
+  }
+  #main-line {
+    top: 310px;
+  }
+  #main-desc {
+    top: 340px;
+  }
+  .button-section {
+    top: 420px;
   }
 }
 
